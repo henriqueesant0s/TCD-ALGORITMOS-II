@@ -4,7 +4,7 @@
 =====================================================
 =              TCD - ALGORITMOS II                  =
 =                                                   =
-=     Henrique E. | Carlos E. | Heitor V. | Vinicius =
+=    Henrique E. | Carlos E. | Heitor V. | Vinicius =
 =====================================================
 ```
 
