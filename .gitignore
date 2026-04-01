@@ -1,0 +1,7 @@
+*.exe
+*.out
+*.o
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

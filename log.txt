@@ -1,0 +1,32 @@
+
+== TEMPO DAS BUSCAS EM MILISSEGUNDOS ==
+=======================================
+ Busca Linear: 0.002047000 ms
+ Busca Binaria: 0.000443000 ms
+
+== TEMPO DAS ORDENACOES EM MILISSEGUNDOS ==
+===========================================
+ Bubble Sort: 0.018372000 ms
+ Insertion Sort: 0.029074000 ms
+ Selection Sort: 98.887587000 ms
+ Merge Sort: 1.981602000 ms
+ Quick Sort: 82.789301000 ms
+ Tonico(EXTRA): 0.000082789 ms
+
+Justificativa do algoritmo extra:
+Nosso algoritmo foi nomeado tendo como inspiração o nome da
+dupla sertaneja Tonico e Tinoco em referencia ao nosso professor Tinoco.
+O algoritmo que decidimos usar foi baseado principalmente no Particionamento Hoare
+para o Quick Sort, apresentado por Charles Antony Richard Hoare
+na década de 60. Essa variacao usa algumas melhorias conhecidas,
+como a particao de Hoare, que faz menos trocas; sendo uma forma de economizar memória
+e processamento, otimizando assim o algoritmo.
+Além disso, utilizamos tambem o Insertion Sort para auxiliar em partes menores
+do conjunto de dados, pois ele possui uma implementacao simples e eficiente
+quando aplicado a pequenos conjuntos de elementos ou dados quase ordenados.
+Dessa forma, a combinacao entre Quick Sort e Insertion Sort permite
+aproveitar as vantagens de cada algoritmo, onde o Quick Sort apresenta
+alto desempenho em grandes conjuntos de dados, enquanto o Insertion Sort
+atua de forma rapida em subconjuntos menores.
+O Quick Sort possui custo medio de O(n log n) e pior caso de O(n^2),
+sendo amplamente utilizado por sua eficiencia pratica e baixo uso de memoria.
