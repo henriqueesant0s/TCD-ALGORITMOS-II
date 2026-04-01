@@ -1,60 +1,105 @@
-/*=====================================================
-=              TCD - ALGORITMOS II                    =
-=                                                     =
-=     Henrique E. | Carlos E. | Heitor V. | Vinicius  =
-=====================================================*/
+# 🚀 TCD - Algoritmos II (UFU)
 
-Descrição do TCD - Universidade Federal De Uberlândia.
+```text
+=====================================================
+=              TCD - ALGORITMOS II                  =
+=                                                   =
+=     Henrique E. | Carlos E. | Heitor V. | Vinicius =
+=====================================================
+```
 
-Este programa foi desenvolvido para a disciplina de Algoritmos II.
-O objetivo é implementar e testar Algoritmos de busca e de ordenação,
+---
+
+## 📌 Descrição
+
+Projeto desenvolvido para a disciplina de **Algoritmos e Programação II** da  
+**Universidade Federal de Uberlândia (UFU)**.
+
+O programa tem como objetivo implementar e testar **algoritmos de busca e ordenação**,  
 utilizando dados lidos de arquivos.
 
-------------------------------------------------------------------------------------------------------------------------
+---
 
-O programa permite:
+## ⚙️ Funcionalidades
 
-1 - Carregar números a partir de um arquivo .txt
-2 - Buscar elementos usando busca linear ou busca binária.
-3 - Ordernar os dados utilizando diferentes Algoritmos.
-4 - Gerar relatórios (log) das operações executadas.
+O sistema permite:
 
-------------------------------------------------------------------------------------------------------------------------
+1. 📂 Carregar números a partir de um arquivo `.txt`
+2. 🔍 Buscar elementos utilizando:
+   - Busca Linear
+   - Busca Binária
+3. 📊 Ordenar os dados utilizando diferentes algoritmos
+4. 📝 Gerar relatórios (`log`) das operações executadas
 
-Estrutura de diretórios:
+---
 
-- include/funcoes.h  = Arquivo cabeçalho com os protótipos das funções.
-- tcd/main.c = Contém o menu principal e controle do programa.
-- tcd/funcoes.c = Implementa as funções de leitura de arquivos, busca e ordernação.
+## 🗂️ Estrutura do Projeto
 
-------------------------------------------------------------------------------------------------------------------------
+```
+TCD/
+├── main.c
+├── funcoes.c
+├── funcoes.h
+├── log.txt
+├── README.md
+├── .gitignore
+```
 
-Como compilar o programa e gerar um .exe na pasta:
+---
 
-Para compilar o programa, é necessário ter o compilador GCC instalado e o MinGW.
+## 💻 Compilação
 
-1 - Abra um novo novo terminal.
-2 - Certifique que esteja na no diretório tcd.
-3 - compile o programa com "gcc main.c funcoes.c -o programa", com isso vai gerar um .exe no diretório.
-4 - Após compilação bem-sucedida, execute o programa:
+Para compilar o programa, é necessário ter o **GCC (MinGW)** instalado.
 
-    ./programa.exe
+### Passos:
 
-------------------------------------------------------------------------------------------------------------------------
+1. Abra um terminal
+2. Navegue até o diretório do projeto
+3. Execute o comando:
 
-Suporte / Contato
+```bash
+gcc main.c funcoes.c -o programa.exe
+```
 
-Em caso de dúvidas, problemas na execução do programa ou sugestões,
-entre em contato com os autores do projeto:
+---
 
-Henrique E. Santos
-henrique.esantos@ufu.br
+## ▶️ Execução
 
-Heitor V. R. Castro
-heitorcastro010@ufu.br
+Após a compilação:
 
-Carlos S. Ferreira
-carlos.sferreira@ufu.br
+```bash
+./programa.exe
+```
 
-Vinicius R. Santos
-vinicius.santos5@ufu.br
+---
+
+## 📊 Sobre o Projeto
+
+- Implementação de algoritmos de busca e ordenação
+- Leitura de dados a partir de arquivos `.txt`
+- Geração de relatório com resultados (`log.txt`)
+- Projeto desenvolvido em linguagem **C**
+- Código organizado e modularizado
+
+---
+
+## 👨‍💻 Autores
+
+- **Henrique E. Santos**  
+  📧 henrique.esantos@ufu.br  
+
+- **Heitor V. R. Castro**  
+  📧 heitorcastro010@ufu.br  
+
+- **Carlos S. Ferreira**  
+  📧 carlos.sferreira@ufu.br  
+
+- **Vinicius R. Santos**  
+  📧 vinicius.santos5@ufu.br  
+
+---
+
+## 📌 Observação
+
+Projeto desenvolvido para fins acadêmicos, conforme proposta do  
+**Trabalho de Conclusão de Disciplina (TCD)**.
